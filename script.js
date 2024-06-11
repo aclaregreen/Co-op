@@ -2,7 +2,7 @@
 //     var menu = document.getElementById("")
 // }
 $(document).ready(function () {
-    $(menuButton).click(function () {
+    $(".menuButton").click(function () {
         $("#sidebar").toggle();
     });
 });
