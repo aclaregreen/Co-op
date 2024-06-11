@@ -3,3 +3,16 @@ h2,
 h3 {
     font-size: 24px;
 }
+
+.menuButton {
+    background-color: #4ce051;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    font-size: 24px;
+}
