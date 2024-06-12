@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $("#sidebar").toggle();
     $(".menuButton").click(function () {
-        $("#sidebar").toggle();
+        //$("#sidebar").toggle();
+        $("#sidebar").toggleClass("active");
     });
 });
