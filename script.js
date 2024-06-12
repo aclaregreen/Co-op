@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#sidebar").toggle();
+    //$("#sidebar").toggle();
     $(".menuButton").click(function () {
         //$("#sidebar").toggle();
         $("#sidebar").toggleClass("active");
