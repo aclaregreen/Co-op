@@ -21,6 +21,10 @@ h3 {
     background-color: #575757;
 }
 
+.menuButton.active {
+    left: 260;
+}
+
 #sidebar {
     position: fixed;
     top: 0;
