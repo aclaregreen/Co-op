@@ -38,6 +38,7 @@ h6 {
     padding: 20px;
     font-size: 2em;
     text-align: center;
+    color: #007BFF;
 }
 
 p {
@@ -53,7 +54,7 @@ p {
     left: -250;
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     transition: left 0.3s ease;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
