@@ -28,6 +28,21 @@ h6 {
     left: 250;
 }
 
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    page-break-after: always;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 #sidebar {
     position: fixed;
     top: 0;
