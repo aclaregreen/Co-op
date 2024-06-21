@@ -1,6 +1,9 @@
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
     font-size: 24px;
 }
 
@@ -11,8 +14,8 @@ h3 {
     padding: 15px 20px;
     cursor: pointer;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
     z-index: 1000;
     font-size: 24px;
 }
@@ -22,7 +25,7 @@ h3 {
 }
 
 .menuButton.active {
-    left: 260;
+    left: 250;
 }
 
 #sidebar {
