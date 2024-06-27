@@ -46,6 +46,12 @@ p {
     padding: 20px;
     text-align: center;
     font-size: 1.2em;
+
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 #sidebar {
