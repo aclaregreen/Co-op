@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-.newbutton {
+.menuButton {
     background-color: #007BFF;
     color: white;
     border: none;
@@ -21,11 +21,11 @@ body {
     transition: background-color 0.3s ease, left 0.3s ease;
 }
 
-.newbutton:hover {
+.menuButton:hover {
     background-color: #005bab;
 }
 
-.newbutton.active {
+.menuButton.active {
     left: 250px;
 }
 
