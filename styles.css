@@ -16,7 +16,7 @@
 }
 
 .menuButton.active {
-    left: 250;
+    left: 250px;
 }
 
 .page {
@@ -50,7 +50,7 @@ p {
 }
 
 body {
-    background-color: #121212;
+    background-color: #3b3b3b;
     color: #ffffff;
 }
 
@@ -75,6 +75,7 @@ body {
     color: white;
     display: block;
     padding: 10px 0;
+    text-decoration: none;
 }
 
 #sidebar a:hover {
@@ -83,4 +84,42 @@ body {
 
 #sidebar.active {
     left: 0;
+}
+
+@media (max-width: 768px) {
+    .menuButton {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    #sidebar {
+        width: 100%;
+        left: -100%;
+    }
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    .sidebar a {
+        padding: 15px 0;
+    }
+
+    .page {
+        padding: 20px;
+    }
 }
