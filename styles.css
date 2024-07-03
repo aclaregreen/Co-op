@@ -99,9 +99,8 @@ p {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .newbutton {
-        padding: 10px 15px;
-        font-size: 18px;
+    body {
+        font-size: 2em;
     }
 
     h1,
@@ -110,33 +109,13 @@ p {
     h4,
     h5,
     h6 {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     p {
-        font-size: 1em;
+        font-size: 2em;
         padding: 10px;
-        line-height: 1.4;
+        line-height: 1.5;
         text-align: left;
-        /* Align text to the left for better readability */
-        max-width: 100%;
-        /* Ensure paragraphs use the full width on mobile */
-    }
-
-    .sidebar {
-        width: 100%;
-        left: -100%;
-    }
-
-    .sidebar.active {
-        left: 0;
-    }
-
-    .sidebar a {
-        padding: 15px 0;
-    }
-
-    .page {
-        padding: 20px;
     }
 }
