@@ -44,6 +44,10 @@ h1 {
     opacity: 1;
 }
 
+main {
+    padding-bottom: 90px;
+}
+
 h2,
 h3,
 h4,
