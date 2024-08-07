@@ -1,121 +1,103 @@
-body {
-    background-color: #2E2E2E;
-    /* Dark grey */
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.menuButton {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    cursor: pointer;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1000;
-    font-size: 24px;
-    transition: background-color 0.3s ease, left 0.3s ease;
+footer {
+    background-color: #111;
 }
 
-.menuButton:hover {
-    background-color: #005bab;
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
 }
 
-.menuButton.active {
-    left: 250px;
-}
-
-.page {
+.socialIcons {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 2em;
-    text-align: center;
-    color: #007BFF;
-    line-height: 1.2;
-}
-
-p {
-    margin: 10px 0;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 1.5;
-    max-width: 600px;
-    /* Restrict paragraph width for readability on desktop */
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: #2E2E2E;
-    /* Dark grey */
-    color: white;
-    transition: left 0.5s ease;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.sidebar-content {
-    padding: 20px;
-}
-
-.sidebar a {
-    color: white;
-    display: block;
-    padding: 15px;
+.socialIcons a {
     text-decoration: none;
-    border-bottom: 1px solid #444;
-    transition: background-color 0.3s ease;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
 }
 
-.sidebar a:hover {
-    background-color: #005bab;
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0, 9;
 }
 
-.sidebar.active {
-    left: 0;
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    /* body {
-        font-size: 2px;
-    } */
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 32px;
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
     }
 
-    p {
-        font-size: 26px;
-        padding: 10px;
-        line-height: 1.5;
-        text-align: left;
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
     }
 }
