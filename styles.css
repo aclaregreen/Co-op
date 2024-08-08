@@ -61,6 +61,10 @@ h7 {
     line-height: 1.2;
 }
 
+h7 {
+    font-weight: bold;
+}
+
 
 footer {
     background-color: #111;
@@ -70,7 +74,7 @@ footer {
     width: 100%;
     padding: 70px 30px 20px;
     background-color: #111;
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 
