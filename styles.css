@@ -6,13 +6,18 @@
 
 
 header {
-    background-color: #111;
+    background-color: black;
 }
 
 .headerContainer {
     width: 100%;
     padding: 70px 30px 20px;
-    background-color: #111;
+    background-color: black;
+}
+
+.UofG-logo {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 h1 {
@@ -69,13 +74,13 @@ h7 {
 
 
 footer {
-    background-color: #111;
+    background-color: black;
 }
 
 .footerContainer {
     width: 100%;
     padding: 70px 30px 20px;
-    background-color: #111;
+    background-color: black;
     position: sticky;
     bottom: 0;
 }
@@ -101,7 +106,7 @@ footer {
 
 /* Hover affect on social media icon */
 .socialIcons a:hover {
-    background-color: #111;
+    background-color: black;
     transition: 0.5s;
 }
 
@@ -112,7 +117,7 @@ footer {
 
 
 .footerBottom {
-    background-color: #000;
+    background-color: black;
     padding: 20px;
     text-align: center;
 }
