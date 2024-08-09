@@ -46,8 +46,6 @@ h1 {
 
 main {
     padding-bottom: 90px;
-    padding-left: 60px;
-    padding-right: 60px;
 }
 
 h2,
@@ -131,6 +129,11 @@ footer {
 }
 
 @media (max-width: 700px) {
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .menu ul {
         flex-direction: column;
     }
@@ -147,12 +150,14 @@ footer {
     }
 }
 
-@media (min-width 700px) {
+@media (min-width: 700px) {
     h1 {
         font-size: 5em;
     }
 
     main {
-        font-size: 18px;
+        font-size: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
