@@ -20,6 +20,13 @@ header {
     top: 0;
 }
 
+.gryphon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -140,6 +147,10 @@ footer {
         display: none;
     }
 
+    .gryphon {
+        display: none;
+    }
+
     main {
         padding-left: 20px;
         padding-right: 20px;
@@ -168,6 +179,11 @@ footer {
     }
 
     .UofG-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .gryphon {
         width: 150px;
         height: 150px;
     }
