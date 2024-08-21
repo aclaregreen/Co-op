@@ -24,11 +24,10 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(-50%);
 }
 
 h1 {
-    color: white;
+    color: red;
     text-align: center;
 }
 
@@ -179,12 +178,12 @@ footer {
     }
 
     .UofG-logo {
-        width: 150px;
+        width: 127px;
         height: 150px;
     }
 
     .gryphon {
-        width: 150px;
+        width: 333px;
         height: 150px;
     }
 
