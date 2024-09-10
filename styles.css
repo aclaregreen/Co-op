@@ -155,7 +155,8 @@ footer {
     }
 
     .johnston {
-        display: none;
+        max-width: 100%
+        height: auto;
     }
 
     main {
