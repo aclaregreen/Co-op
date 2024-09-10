@@ -154,6 +154,10 @@ footer {
         display: none;
     }
 
+    .johnston {
+        display: none;
+    }
+
     main {
         padding-left: 20px;
         padding-right: 20px;
